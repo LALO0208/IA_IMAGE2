@@ -18,3 +18,9 @@
 .result-image{
   width: 300px;
 }
+.text{
+  color: beige;
+}
+.text:hover{
+  color: aqua;
+}

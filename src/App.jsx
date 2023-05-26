@@ -24,15 +24,21 @@ function App() {
   };
   return (
     <div className="app-main">
-      <h2>Generador de imagenes con IA</h2>
+      <h1 class = "text">Generador de imágenes con IA</h1>
       <input 
       className="app-input" 
-      placeholder=''
+      placeholder='Ejemplo: Mona lisa sonriendo'
       onChange={(e) => setPrompt(e.target.value)}
       />
-      <button onClick={generateImage}>genera una imagen</button>
+      <button onClick={generateImage}>generar imagen</button>
 
       {result.length > 0 ? <img className="result-image" src={result} alt="result" /> : <></>}
+      <footer>
+        <div>
+          <h2>Desarrollado por:</h2>
+          <h2>Eduardo Narez</h2>
+        </div>
+      </footer>
 
     </div>
   )
