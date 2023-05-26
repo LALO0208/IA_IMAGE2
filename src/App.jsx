@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Configuration, OpenAIApi } from 'openai'
+import { Configuration, OpenAIApi } from '/vite-project2/node_modules/openai'
 import './App.css'
 
 
